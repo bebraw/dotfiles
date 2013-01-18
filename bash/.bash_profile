@@ -37,7 +37,7 @@ export FIGNORE=.DS_Store
 alias sudo='sudo '
 
 alias ..='cd ..;'
-alias ls='ls -G'
+alias ls='ls -G --color'
 
 alias blender="~/Apps/blender/blender.app/Contents/MacOS/blender"
 
