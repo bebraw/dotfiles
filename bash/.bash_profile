@@ -13,6 +13,8 @@ fi
 
 HISTCONTROL=ignoredups:ignorespace
 
+git config --global core.editor "vim"
+
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=yes'
