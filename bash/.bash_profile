@@ -1,4 +1,4 @@
-export PATH="~/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:$PATH"
+export PATH="~/usr/local/bin:~/Apps:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:$PATH"
 export NODE_PATH="/opt/local/lib/node_modules"
 
 export CLICOLOR=1
