@@ -13,16 +13,6 @@ fi
 
 HISTCONTROL=ignoredups:ignorespace
 
-git config --global user.name "Juho Vepsalainen"
-git config --global user.email "bebraw@gmail.com"
-git config --global core.editor "vim"
-git config --global color.ui true
-git config --global core.autocrlf input
-git config --global alias.st status
-git config --global alias.ci commit
-git config --global alias.co checkout
-git config --global alias.br branch
-
 eval "$(hub alias -s)"
 
 if [ -x /usr/bin/dircolors ]; then
