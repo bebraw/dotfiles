@@ -1,7 +1,7 @@
 export PATH="~/usr/local/bin:~/Apps:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:$PATH"
 export NODE_PATH="/opt/local/lib/node_modules"
 
-export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx/tools/android"
+export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
