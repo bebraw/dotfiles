@@ -1,6 +1,8 @@
 export PATH="~/usr/local/bin:~/Apps:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:$PATH"
 export NODE_PATH="/opt/local/lib/node_modules"
 
+export ANDROID_HOME=`brew --prefix android`
+
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
