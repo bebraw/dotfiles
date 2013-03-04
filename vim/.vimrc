@@ -83,6 +83,9 @@ map Å 0
 " Last non-space character
 map Ä g_
 
+" G should map to the last character of the last line
+map G Gg_
+
 " Same for visual mode
 vmap å ^
 vmap ä $
@@ -124,4 +127,3 @@ function! g:ToggleNuMode()
     endif
 endfunction
 nnoremap <silent><C-L> :call g:ToggleNuMode()<cr>
-
