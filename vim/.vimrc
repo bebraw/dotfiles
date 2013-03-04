@@ -36,7 +36,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set textwidth=79
+" set textwidth=79
 
 set pastetoggle=<F3>
 
