@@ -32,6 +32,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias less='less -R'
 fi
 
+if which htop >/dev/null; then
+    alias top='htop'
+fi
+
 export FIGNORE=.DS_Store
 
 alias sudo='sudo '
