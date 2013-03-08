@@ -15,8 +15,14 @@ fi
 
 HISTCONTROL=ignoredups:ignorespace
 
+# enable hub shortcuts
 eval "$(hub alias -s)"
 
+# enable vi mode in bash
+set editing-mode vi
+set -o vi
+
+# enable colors
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=yes'
