@@ -49,8 +49,6 @@ set ruler
 set hlsearch
 set incsearch
 
-abbr fn function
-
 " http://dailyvim.blogspot.fi/2009/11/shift-tabing.html
 " TODO: find an alternative to this! seems to bork git commit
 "imap <S-Tab> <C-o><<
