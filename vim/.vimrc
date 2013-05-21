@@ -114,6 +114,9 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 " expand tabs
 let g:Jsbeautify_jslint_expandtab = 1
 
+" disable ex mode
+nnoremap Q <nop>
+
 " https://gist.github.com/3418841
 " toggle line numbers
 " use Ctrl+L to toggle the line number counting method
