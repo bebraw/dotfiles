@@ -1,22 +1,22 @@
 [user]
-	name = Juho Vepsalainen
-	email = bebraw@gmail.com
+    name = Juho Vepsalainen
+    email = bebraw@gmail.com
 [core]
-	excludesfile = /Users/juhovepsalainen/.gitignore
-	editor = vim
-	autocrlf = input
+    excludesfile = /Users/juhovepsalainen/.gitignore
+    editor = vim
+    autocrlf = input
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path =
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    trustExitCode = true
 [color]
-	ui = true
+    ui = true
 [push]
-	default = simple
+    default = simple
 [alias]
-	st = status
-	ci = commit
-	co = checkout
-	br = branch
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
