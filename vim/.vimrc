@@ -32,6 +32,9 @@ set sw=4
 
 syntax on
 
+" ejs highlighting
+au BufNewFile,BufRead *.ejs set filetype=html
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
