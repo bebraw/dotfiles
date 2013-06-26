@@ -62,7 +62,15 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 function parse_git_branch {
-        git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
+  if [ ! -d ".git" ]; then
+      return 0
+  fi
+
+  if [ "$(git stash list)" ]; then
+    printf " *"
+  fi
+
+  git branch --no-color | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
 }
 
 function proml {
@@ -79,7 +87,7 @@ function proml {
 # END OPTIONAL
   local     DEFAULT="\[\033[0m\]"
 
-PS1="\W$RED\$(parse_git_branch)$DEFAULT \$ "
+  PS1="\W$RED\$(parse_git_branch)$DEFAULT \$ "
 }
 
 proml
