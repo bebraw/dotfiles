@@ -17,6 +17,8 @@
     ui = true
 [push]
     default = simple
+[advice]
+    statusHints = false
 [alias]
     st = status
     ci = commit
