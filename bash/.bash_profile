@@ -38,6 +38,8 @@ fi
 
 export FIGNORE=.DS_Store
 
+alias 'cd..'='cd ..'
+
 alias sudo='sudo '
 
 alias ..='cd ..;'
