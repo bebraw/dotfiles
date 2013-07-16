@@ -3,6 +3,8 @@ export NODE_PATH="/opt/local/lib/node_modules"
 
 export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
 
+export LC_ALL="en_US.UTF-8"
+
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
