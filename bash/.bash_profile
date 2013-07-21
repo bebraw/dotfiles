@@ -46,6 +46,8 @@ alias sudo='sudo '
 
 alias ..='cd ..;'
 
+alias v='vim'
+
 unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
     alias ls='ls --color'
