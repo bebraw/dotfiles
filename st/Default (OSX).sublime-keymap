@@ -1,0 +1,12 @@
+[
+    { "keys": ["å"], "command": "move_to", "args": {"to": "bol", "extend": false},
+        "context": [
+        { "key": "setting.command_mode", "operand": true }
+    ]},
+    { "keys": ["ä"], "command": "move_to", "args": {"to": "eol", "extend": false},
+        "context": [
+        { "key": "setting.command_mode", "operand": true }
+    ]},
+    { "keys": ["super+å"], "command": "unindent" },
+    { "keys": ["super+ä"], "command": "indent" },
+]
