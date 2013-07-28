@@ -5,5 +5,10 @@
     ],
     "translate_tabs_to_spaces": true,
     "vintage_start_in_command_mode": true,
-    "scroll_past_end": true
+    "scroll_past_end": true,
+    "indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ]
 }
