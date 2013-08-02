@@ -13,5 +13,6 @@
     "scroll_past_end": true,
     "translate_tabs_to_spaces": true,
     "detect_indentation": false,
-    "vintage_start_in_command_mode": true
+    "vintage_start_in_command_mode": true,
+    "ignored_packages": []
 }
