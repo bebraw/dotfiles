@@ -1,19 +1,16 @@
 {
-    "draw_white_space": "all",
-    "ignored_packages":
-    [
-    ],
-    "translate_tabs_to_spaces": true,
-    "vintage_start_in_command_mode": true,
-    "scroll_past_end": true,
-    "caret_style": "phase",
-    "highlight_line": true,
-    "line_padding_bottom": 1,
-    "line_padding_top": 1,
     "bold_folder_labels": true,
+    "caret_style": "solid",
+    "draw_white_space": "all",
+    "highlight_line": true,
     "indent_guide_options":
     [
         "draw_normal",
         "draw_active"
-    ]
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "scroll_past_end": true,
+    "translate_tabs_to_spaces": true,
+    "vintage_start_in_command_mode": true
 }
