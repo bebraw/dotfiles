@@ -3,9 +3,13 @@
 	"caret_style": "solid",
 	"detect_indentation": false,
 	"draw_white_space": "all",
+	"fold_buttons": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"GitHub Flavored Markdown Preview",
+		"GitGutter",
+		"Markdown Preview"
 	],
 	"indent_guide_options":
 	[
