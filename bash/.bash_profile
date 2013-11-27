@@ -8,13 +8,6 @@ export LC_ALL="en_US.UTF-8"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export WORKON_HOME=$HOME/.virtualenvs
-
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]
-then
-    source /usr/local/bin/virtualenvwrapper.sh
-fi
-
 HISTCONTROL=ignoredups:ignorespace
 
 # enable hub shortcuts
