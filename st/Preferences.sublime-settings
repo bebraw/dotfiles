@@ -7,9 +7,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"GitHub Flavored Markdown Preview",
 		"GitGutter",
-		"Markdown Preview"
+		"Markdown Preview",
+		"GitHub Flavored Markdown Preview",
+        "TernJS"
 	],
 	"indent_guide_options":
 	[
