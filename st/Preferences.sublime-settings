@@ -31,5 +31,7 @@
         ".sass-cache",
         ".svn",
         ".hg"
-    ]
+    ],
+    "scroll_past_end": true,
+    "scroll_speed": 2
 }
