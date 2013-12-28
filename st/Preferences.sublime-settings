@@ -1,37 +1,36 @@
 {
-    "bold_folder_labels": true,
-    "caret_style": "solid",
-    "detect_indentation": false,
-    "draw_white_space": "all",
-    "fold_buttons": true,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "ignored_packages":
-    [
-        "GitGutter",
-        "Markdown Preview",
-        "GitHub Flavored Markdown Preview",
-        "TernJS"
-    ],
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
-    "line_padding_bottom": 1,
-    "line_padding_top": 1,
-    "scroll_past_end": true,
-    "translate_tabs_to_spaces": true,
-    "vintage_start_in_command_mode": true,
-    "close_windows_when_empty": true,
-    "folder_exclude_patterns":
-    [
-        ".git",
-        ".bundle",
-        ".sass-cache",
-        ".svn",
-        ".hg"
-    ],
-    "scroll_past_end": true,
-    "scroll_speed": 2
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"close_windows_when_empty": true,
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		".bundle",
+		".sass-cache",
+		".svn",
+		".hg"
+	],
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"GitHub Flavored Markdown Preview",
+		"GitGutter",
+		"TernJS",
+		"Markdown Preview"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"scroll_past_end": true,
+	"scroll_speed": 2,
+	"translate_tabs_to_spaces": true,
+	"vintage_start_in_command_mode": true
 }
