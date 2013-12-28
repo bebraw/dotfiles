@@ -10,9 +10,6 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 HISTCONTROL=ignoredups:ignorespace
 
-# enable hub shortcuts
-eval "$(hub alias -s)"
-
 # enable vi mode in bash
 set editing-mode vi
 set -o vi
