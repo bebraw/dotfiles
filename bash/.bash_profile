@@ -1,4 +1,6 @@
-export PATH="~/bin:~/usr/local/bin:~/Apps:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:/opt/local/lib/mariadb/bin/:$PATH"
+export PATH="~/bin:~/usr/local/bin:~/Apps:/opt/local/share/java/android-sdk-macosx/tools:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:/opt/local/lib/mariadb/bin/:$PATH"
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
 export NODE_PATH="/opt/local/lib/node_modules"
 
 export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
