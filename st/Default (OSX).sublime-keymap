@@ -10,5 +10,6 @@
     { "keys": ["super+å"], "command": "unindent" },
     { "keys": ["super+ä"], "command": "indent" },
     { "keys": ["super+v"], "command": "paste_and_indent" },
-    { "keys": ["super+shift+v"], "command": "paste" }
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["super+shift+space"], "command": "expand_region" }
 ]
