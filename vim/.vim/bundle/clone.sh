@@ -9,3 +9,4 @@ git clone https://github.com/derekwyatt/vim-fswitch.git
 git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/leshill/vim-json.git
 git clone https://github.com/airblade/vim-gitgutter.git
+git clone https://github.com/editorconfig/editorconfig-vim.git
