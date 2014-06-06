@@ -17,10 +17,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GitHub Flavored Markdown Preview",
-		"GitGutter",
+		"Markdown Preview",
 		"TernJS",
-		"Markdown Preview"
+		"GitHub Flavored Markdown Preview",
+		"GitGutter"
 	],
 	"indent_guide_options":
 	[
