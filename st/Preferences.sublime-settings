@@ -13,13 +13,16 @@
 		".svn",
 		".hg"
 	],
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown Preview",
-		"TernJS",
+		"JSHint Gutter",
+		"HTML-CSS-JS Prettify",
+		"sublimelint",
 		"GitHub Flavored Markdown Preview",
+		"CodeFormatter",
 		"GitGutter"
 	],
 	"indent_guide_options":
@@ -33,5 +36,16 @@
 	"scroll_speed": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+    "auto_complete_triggers":
+    [
+      {
+         "characters": "<",
+         "selector": "text.html"
+      },
+      {
+         "characters": "/",
+         "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+      }
+    ]
 }
