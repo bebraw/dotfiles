@@ -1,8 +1,20 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
+	],
 	"bold_folder_labels": true,
 	"caret_style": "solid",
 	"close_windows_when_empty": true,
-	"detect_indentation": false,
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"detect_indentation": true,
 	"draw_white_space": "all",
 	"fold_buttons": true,
 	"folder_exclude_patterns":
@@ -18,12 +30,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Git",
 		"JSHint Gutter",
+		"Markdown",
+		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"sublimelint",
-		"GitHub Flavored Markdown Preview",
-		"CodeFormatter",
-		"GitGutter"
+		"CodeFormatter"
 	],
 	"indent_guide_options":
 	[
@@ -36,16 +48,5 @@
 	"scroll_speed": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true,
-    "auto_complete_triggers":
-    [
-      {
-         "characters": "<",
-         "selector": "text.html"
-      },
-      {
-         "characters": "/",
-         "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
-      }
-    ]
+	"vintage_start_in_command_mode": true
 }

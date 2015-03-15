@@ -1,9 +1,8 @@
-export PATH="~/bin:~/usr/local/bin:~/Apps:/opt/local/share/java/android-sdk-macosx/tools:/opt/local/share/java/android-sdk-macosx/platform-tools:/usr/local/sbin:/opt/local/bin:/opt/local/apache2/bin:/opt/local/lib/mariadb/bin/:$PATH"
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH="~/bin:~/Apps:$PATH"
 
-export NODE_PATH="/opt/local/lib/node_modules"
+#export NODE_PATH="/opt/local/lib/node_modules"
 
-export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
+#export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
 
 export LC_ALL="en_US.UTF-8"
 
@@ -92,9 +91,8 @@ proml
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-if [ -f /opt/local/etc/profile.d/autojump.sh ]; then
-    . /opt/local/etc/profile.d/autojump.sh
-fi
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
 
 ###-begin-npm-completion-###
 #
