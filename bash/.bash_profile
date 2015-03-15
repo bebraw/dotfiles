@@ -1,3 +1,4 @@
+export PATH="/usr/local/sbin:$PATH"
 export PATH="~/bin:~/Apps:$PATH"
 
 export NODE_PATH="/usr/local/lib/node_modules"
