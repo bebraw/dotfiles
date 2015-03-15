@@ -1,6 +1,6 @@
 export PATH="~/bin:~/Apps:$PATH"
 
-#export NODE_PATH="/opt/local/lib/node_modules"
+export NODE_PATH="/usr/local/lib/node_modules"
 
 #export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
 
