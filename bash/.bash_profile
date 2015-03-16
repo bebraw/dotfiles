@@ -49,14 +49,14 @@ fi
 
 alias blender="~/Apps/blender/blender.app/Contents/MacOS/blender"
 
-alias mysqlstart='sudo /opt/local/bin/mysqld_safe5 &'
-alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
+#alias mysqlstart='sudo /opt/local/bin/mysqld_safe5 &'
+#alias mysqlstop='/opt/local/bin/mysqladmin5 -u root -p shutdown'
 
 # http://community.education.ufl.edu/community/blog/view/147117/set-up-composer-php-dependency-manager-on-osx
 alias composer="php /usr/bin/composer.phar"
 
-if [ -f /opt/local/etc/bash_completion ]; then
-    . /opt/local/etc/bash_completion
+if [ -f /usr/local/etc/bash_completion ]; then
+    . /usr/local/etc/bash_completion
 fi
 
 function parse_git_branch {
