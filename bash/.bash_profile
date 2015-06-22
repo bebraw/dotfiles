@@ -5,6 +5,8 @@ export NODE_PATH="/usr/local/lib/node_modules"
 
 #export ANDROID_HOME="/opt/local/share/java/android-sdk-macosx"
 
+ulimit -n 2048
+
 export LC_ALL="en_US.UTF-8"
 
 export CLICOLOR=1
