@@ -47,6 +47,7 @@
 	"scroll_past_end": true,
 	"scroll_speed": 2,
 	"theme": "Soda Dark 3.sublime-theme",
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true
 }
