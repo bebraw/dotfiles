@@ -30,12 +30,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Git",
-		"JSHint Gutter",
 		"Markdown",
+		"Git",
 		"GitGutter",
-		"HTML-CSS-JS Prettify",
-		"CodeFormatter"
+		"CodeFormatter",
+		"JSHint Gutter",
+		"HTML-CSS-JS Prettify"
 	],
 	"indent_guide_options":
 	[
@@ -46,8 +46,14 @@
 	"line_padding_top": 1,
 	"scroll_past_end": true,
 	"scroll_speed": 2,
-	"theme": "Soda Dark 3.sublime-theme",
 	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"spell_check": true,
+	"ignore_word": [
+		"npm",
+		"Antwar",
+		"localhost"
+	]
 }
