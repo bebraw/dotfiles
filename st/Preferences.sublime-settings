@@ -25,17 +25,24 @@
 		".svn",
 		".hg"
 	],
+	"font_face": "Hack",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignore_word":
+	[
+		"npm",
+		"Antwar",
+		"localhost"
+	],
 	"ignored_packages":
 	[
-		"Markdown",
-		"Git",
 		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Git",
 		"CodeFormatter",
-		"JSHint Gutter",
-		"HTML-CSS-JS Prettify"
+		"Markdown",
+		"JSHint Gutter"
 	],
 	"indent_guide_options":
 	[
@@ -46,14 +53,9 @@
 	"line_padding_top": 1,
 	"scroll_past_end": true,
 	"scroll_speed": 2,
+	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true,
-	"spell_check": true,
-	"ignore_word": [
-		"npm",
-		"Antwar",
-		"localhost"
-	]
+	"vintage_start_in_command_mode": true
 }
