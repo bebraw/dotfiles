@@ -14,6 +14,14 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 HISTCONTROL=ignoredups:ignorespace
 
+# bash completion
+# this needs
+# curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+# to work
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # enable vi mode in bash
 set editing-mode vi
 set -o vi
