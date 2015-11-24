@@ -37,12 +37,12 @@
 	],
 	"ignored_packages":
 	[
+		"CodeFormatter",
+		"Git",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"Git",
-		"CodeFormatter",
-		"Markdown",
-		"JSHint Gutter"
+		"JSHint Gutter",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
