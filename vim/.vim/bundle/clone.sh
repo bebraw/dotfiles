@@ -10,3 +10,6 @@ git clone https://github.com/pangloss/vim-javascript.git
 git clone https://github.com/leshill/vim-json.git
 git clone https://github.com/airblade/vim-gitgutter.git
 git clone https://github.com/editorconfig/editorconfig-vim.git
+git clone https://github.com/othree/javascript-libraries-syntax.vim.git
+git clone https://github.com/mxw/vim-jsx.git
+
