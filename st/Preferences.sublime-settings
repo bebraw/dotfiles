@@ -1,4 +1,9 @@
 {
+	"added_words":
+	[
+		"Naã¯ve",
+		"lifecycle"
+	],
 	"auto_complete_triggers":
 	[
 		{
@@ -43,6 +48,12 @@
 		"HTML-CSS-JS Prettify",
 		"JSHint Gutter",
 		"Markdown"
+	],
+	"ignored_words":
+	[
+		"Aho",
+		"Luoma",
+		"internet"
 	],
 	"indent_guide_options":
 	[
