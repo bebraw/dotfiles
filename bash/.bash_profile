@@ -14,6 +14,8 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 HISTCONTROL=ignoredups:ignorespace
 
+alias ag='ag --path-to-agignore ~/.agignore'
+
 # bash completion
 # this needs
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
