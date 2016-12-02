@@ -47,8 +47,7 @@
 		"Git",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"JSHint Gutter",
-		"Markdown"
+		"JSHint Gutter"
 	],
 	"ignored_words":
 	[
