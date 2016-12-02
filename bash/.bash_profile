@@ -15,7 +15,7 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 HISTCONTROL=ignoredups:ignorespace
 
 alias ag='ag --path-to-agignore ~/.agignore'
-alias brewski='brew update && brew upgrade --all && brew cleanup; brew doctor'
+alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
 # bash completion
 # this needs
