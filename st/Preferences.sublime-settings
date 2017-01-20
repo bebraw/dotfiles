@@ -3,7 +3,8 @@
 	[
 		"Naã¯ve",
 		"lifecycle",
-		"Reactabular"
+		"Reactabular",
+		"walkthrough"
 	],
 	"auto_complete_triggers":
 	[
@@ -45,7 +46,6 @@
 	[
 		"CodeFormatter",
 		"Git",
-		"GitGutter",
 		"HTML-CSS-JS Prettify",
 		"JSHint Gutter"
 	],
