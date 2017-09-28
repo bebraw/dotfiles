@@ -17,6 +17,12 @@ HISTCONTROL=ignoredups:ignorespace
 alias ag='ag --path-to-ignore ~/.agignore'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
+alias jobski='npm run push && npm run job-status'
+alias ns='npm start'
+alias nrb='npm run build'
+alias nrd='npm run deploy'
+alias nt='npm test'
+
 # bash completion
 # this needs
 # curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
