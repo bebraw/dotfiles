@@ -1,7 +1,8 @@
 [diff]
     algorithm = patience
+	noprefix = true
 [user]
-    name = Juho Vepsalainen
+	name = Juho Vepsäläinen
     email = bebraw@gmail.com
 [core]
     excludesfile = /Users/juhovepsalainen/.gitignore
@@ -17,7 +18,7 @@
 [color]
     ui = true
 [push]
-    default = simple
+	default = current
 [advice]
     statusHints = false
 [alias]
@@ -32,3 +33,12 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+# This next lines include Netlify's Git Credential Helper configuration in your Git configuration.
+[include]
+  path = /Users/juhovepsalainen/.netlify/helper/git-config
+[help]
+	autocorrect = -1
+[merge "npm-merge-driver"]
+	name = automatically merge npm lockfiles
+	driver = npx npm-merge-driver merge %A %O %B %P
