@@ -14,6 +14,8 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 
 HISTCONTROL=ignoredups:ignorespace
 
+alias help='tldr'
+
 alias ag='ag --path-to-ignore ~/.agignore'
 alias brewski='brew update && brew upgrade && brew cleanup; brew doctor'
 
@@ -21,7 +23,10 @@ alias jobski='npm run push && npm run job-status'
 alias ns='npm start'
 alias nrb='npm run build'
 alias nrd='npm run deploy'
+alias nrp='npm run preview'
 alias nt='npm test'
+
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules"
 
 # bash completion
 # this needs
@@ -178,3 +183,6 @@ done
 # }}}
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
