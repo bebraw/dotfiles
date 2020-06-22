@@ -5,7 +5,8 @@
 		"lifecycle",
 		"Reactabular",
 		"walkthrough",
-		"metadata"
+		"metadata",
+		"naïve"
 	],
 	"auto_complete_triggers":
 	[
@@ -33,7 +34,7 @@
 		".svn",
 		".hg"
 	],
-	"font_face": "Hack",
+	"font_face": "Inconsolata-dz",
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
