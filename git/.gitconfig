@@ -6,12 +6,20 @@
     email = bebraw@gmail.com
 [core]
     excludesfile = /Users/juhovepsalainen/.gitignore
-    editor = vim
+    editor = code --new-window --wait
     autocrlf = input
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
     path =
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --new-window --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+  cmd = code --new-window --wait $MERGED
 [mergetool "sourcetree"]
     cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
@@ -42,3 +50,5 @@
 [merge "npm-merge-driver"]
 	name = automatically merge npm lockfiles
 	driver = npx npm-merge-driver merge %A %O %B %P
+[pull]
+	rebase = false
